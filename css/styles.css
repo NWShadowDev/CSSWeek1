@@ -155,3 +155,34 @@ img.suggestion {
   font-family: sans-serif;
   text-shadow: -1px -1px 10px white;
 }
+
+#contact {
+  position: relative;
+  width:500px;
+  top: 50px;
+  background-color: #7D988D;
+  border: 3px solid black;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact p {
+  text-align: center;
+  padding: 10px;
+  font-size: 14pt;
+}
+
+#contact a {
+  color: white;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+  color: black;
+}
