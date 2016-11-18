@@ -21,6 +21,45 @@ header {
   top: 50px;
 }
 
+button {
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 12pt;
+}
+
+#add {
+  background-color: darkgreen;
+  width: 120px;
+  height: 30px;
+}
+
+#add:hover {
+  background-color: green;
+}
+
+#favorite {
+  background-color: goldenrod;
+  width: 100px;
+  height: 30px;
+}
+
+#favorite:hover {
+  background-color: gold;
+}
+
+#favorite:hover i {
+  color: yellow;
+}
+
+#custom {
+  background-color: skyblue;
+  height: 30px;
+}
+
+#custom:hover {
+  background-color: lightblue;
+}
+
 #nav {
   float: right;
   position: relative;
@@ -52,5 +91,4 @@ header {
   padding: 10px;
   margin-left: 20px;
   width: 500px;
-
 }
