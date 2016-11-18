@@ -1,0 +1,11 @@
+header {
+  text-align: center;
+}
+
+#nav {
+  float: right;
+}
+
+#nav li {
+  list-style-type: none;
+}
