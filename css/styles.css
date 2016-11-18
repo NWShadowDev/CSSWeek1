@@ -24,7 +24,12 @@ button {
   margin-top: 5px;
   background-color: #7D988D;
   z-index: 1;
+  padding: 0;
   margin-bottom: 5px;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
 }
 
 #header h1 {
@@ -75,7 +80,7 @@ button {
 #nav {
   position: absolute;
   text-align: center;
-  top: 160px;
+  top: 210px;
 }
 
 #nav li {
@@ -109,7 +114,7 @@ button {
 #main {
   position: relative;
   float: left;
-  top: 20px;
+  top: 50px;
 }
 
 #main img {
@@ -117,13 +122,12 @@ button {
   height: 500px;
   border: 5px solid black;
   background-color: #7D988D;
+  z-index: 0;
 }
 
 #main #sizeAndInfo {
-  border: 3px solid black;
   float: right;
   padding: 10px;
-  margin-left: 20px;
   width: 500px;
   border: 5px solid black;
 }
@@ -133,8 +137,22 @@ button {
   display: block;
 }
 
+#caption p {
+  position: absolute;
+  color: white;
+  top: 430px;
+  left: 70px;
+  background-color: black;
+  padding: 10px;
+  border: 3px solid white;
+}
+
 #sizeAndInfo {
   background-color: #7D988D;
+  float: right;
+  position: absolute;
+  left: 450px;
+  bottom: 125px;
 }
 
 select {
@@ -150,7 +168,7 @@ img.suggestion {
 
 #suggestions {
   position: relative;
-  top: 20px;
+  top: 50px;
   float: left;
   display: inline-block;
   margin-right: auto;
