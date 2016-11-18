@@ -21,12 +21,15 @@ button {
 }
 
 #header {
+  margin-top: 5px;
   background-color: #7D988D;
   z-index: 1;
+  margin-bottom: 5px;
 }
 
-h1 {
-  float: left;
+#header h1 {
+  top: 10px;
+  text-align: center;
   font-size: 50pt;
   font-family: fantasy;
   position: relative;
@@ -71,7 +74,8 @@ h1 {
 
 #nav {
   position: absolute;
-  top: 150px;
+  text-align: center;
+  top: 160px;
 }
 
 #nav li {
