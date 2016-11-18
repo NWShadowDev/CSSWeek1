@@ -128,6 +128,11 @@ button {
   border: 5px solid black;
 }
 
+#main p:first-line {
+  color: white;
+  display: block;
+}
+
 #sizeAndInfo {
   background-color: #7D988D;
 }
