@@ -11,6 +11,7 @@ body {
   margin-top: .5in;
   margin-left: .5in;
   margin-right: .5in;
+  background-color: #374540;
 }
 
 header {
@@ -91,4 +92,17 @@ button {
   padding: 10px;
   margin-left: 20px;
   width: 500px;
+}
+
+.suggestion {
+  border: 3px solid black;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+#suggestions {
+  position: absolute;
+  top: 800px;
+  float: left;
+
 }
