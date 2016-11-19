@@ -132,9 +132,9 @@ button {
   border: 5px solid black;
 }
 
-#main p:first-line {
-  color: white;
+#main li{
   display: block;
+  font-family: sans-serif;
 }
 
 #caption p {
@@ -166,6 +166,18 @@ img.suggestion {
   margin: 0 0 10px 10px;
 }
 
+#suggestions::after {
+  content: "Like what you see? Click the link at the top for the full gallery! You can also contact me via the top as well if you have any questions!";
+  position: absolute;
+  top: 300px;
+  font-family: sans-serif;
+}
+
+img.suggestion:hover {
+  border: 5px solid white;
+  opacity: 0.5;
+}
+
 #suggestions {
   position: relative;
   top: 50px;
@@ -176,7 +188,6 @@ img.suggestion {
   padding-bottom: 10px;
   width: 1200px;
   font-family: sans-serif;
-  text-shadow: -1px -1px 10px white;
 }
 
 #contact {
@@ -208,4 +219,20 @@ img.suggestion {
 #contact a:hover {
   text-decoration: underline;
   color: black;
+}
+
+#purchaseInfo {
+  background-color: #7D988D;
+  padding: 10px;
+  border: 3px solid black;
+  width: 500px;
+}
+
+#yourCart {
+  position: relative;
+  width:500px;
+  top: 50px;
+  background-color: #7D988D;
+  border: 3px solid black;
+  text-align: center;
 }
