@@ -199,6 +199,7 @@ img.suggestion:hover {
   text-align: center;
   display: block;
   margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 #contact h2 {
@@ -235,4 +236,17 @@ img.suggestion:hover {
   background-color: #7D988D;
   border: 3px solid black;
   text-align: center;
+  display: block;
+  margin: 0 auto;``
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+}
+
+input {
+  padding-top: 5px;
+  margin-top: 5px;
+  width: 300px;
 }
