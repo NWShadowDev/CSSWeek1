@@ -10,7 +10,10 @@
 body {
   margin-left: .5in;
   margin-right: .5in;
-  background-color: #374540;
+  background-image: url('../img/forest.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   z-index: 0;
 }
 
@@ -22,14 +25,14 @@ button {
 
 #header {
   margin-top: 5px;
-  background-color: #7D988D;
+  background-color: rgba(155,182,93,0.5);
   z-index: 1;
   padding: 0;
   margin-bottom: 5px;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
-  border-top: 3px solid black;
+  border-bottom: 3px solid #9BB65D;
+  border-left: 3px solid #9BB65D;
+  border-right: 3px solid #9BB65D;
+  border-top: 3px solid #9BB65D;
 }
 
 #header h1 {
@@ -38,7 +41,7 @@ button {
   font-size: 50pt;
   font-family: fantasy;
   position: relative;
-  text-shadow: -1px -1px 10px white;
+  text-shadow: -1px -1px 10px #9BB65D;
 }
 
 #add {
@@ -87,7 +90,7 @@ button {
   list-style-type: none;
   display: inline-block;
   margin-right: 7px;
-  background-color: #7D988D;
+  background-color: rgba(155,182,93,0.5);
   padding: 7px;
   border-radius: 5px;
   border: 3px solid black;
@@ -121,7 +124,7 @@ button {
   width: 400px;
   height: 500px;
   border: 5px solid black;
-  background-color: #7D988D;
+  background-color: rgba(155,182,93,0.5);
   z-index: 0;
 }
 
@@ -148,7 +151,7 @@ button {
 }
 
 #sizeAndInfo {
-  background-color: #7D988D;
+  background-color: rgba(155,182,93,0.5);
   float: right;
   position: absolute;
   left: 450px;
@@ -174,7 +177,7 @@ img.suggestion {
 }
 
 img.suggestion:hover {
-  border: 5px solid white;
+  border: 5px solid #9BB65D;
   opacity: 0.5;
 }
 
@@ -194,7 +197,7 @@ img.suggestion:hover {
   position: relative;
   width:500px;
   top: 50px;
-  background-color: #7D988D;
+  background-color: rgba(155,182,93,0.5);
   border: 3px solid black;
   text-align: center;
   display: block;
@@ -223,7 +226,7 @@ img.suggestion:hover {
 }
 
 #purchaseInfo {
-  background-color: #7D988D;
+  background-color: #9BB65D;
   padding: 10px;
   border: 3px solid black;
   width: 500px;
@@ -233,7 +236,7 @@ img.suggestion:hover {
   position: relative;
   width:500px;
   top: 50px;
-  background-color: #7D988D;
+  background-color: #9BB65D;
   border: 3px solid black;
   text-align: center;
   display: block;
